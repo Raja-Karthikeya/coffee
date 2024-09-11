@@ -1,41 +1,43 @@
-header{
-    background: linear-gradient(to right,#B70404,#B70404,#F90716,#F90716,#F90716);
-    text-align: center;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0px 2px #B70404; padding: 5px 0px;
-}
-h2{
-    text-decoration: underline;
-}
-main{
+body{
     background-color: whitesmoke;
 }
-.aa{
-    background-color: white;
-    width: 320px;
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+header{
+    width: 100%;
     text-align: center;
-    margin: 10px;
-    box-shadow: 3px 3px 2px lightgray;
+    background: linear-gradient(to right,#B20600,#B20600,#DC0000,#DC0000);
+    padding: 1px;
 }
-.aa img{
-    width: 280px;
+h1{
+    text-decoration: underline;
+}
+img{
+    width: 300px;
     height: 200px;
 }
 .a{
     display: flex;
-    width: vw;
+    place-content: center;
+}
+.aa{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    color: gray;
+}
+h2{
+    color: black;
+    text-decoration: underline;
 }
 .b{
     display: flex;
-    width: vw;
+    /* column-gap: 10px; */
+    place-content: center;
 }
 footer{
-    background: linear-gradient(to right,#B70404,#B70404,#F90716,#F90716,#F90716);
+    height: 4em;
+    place-content: center;
     text-align: center;
-    padding: 15px 0px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right,#B20600,#B20600,#DC0000,#DC0000);
 }
